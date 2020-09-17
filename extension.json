@@ -3,10 +3,10 @@
   "name": "Hivacruz",
   "organization": "Yann Defretin",
   "vendor": "Yann Defretin",
-  "description": "A dark blue theme for Nova, inspired by the Cobalt Theme.",
+  "description": "A dark blue theme for Nova.",
   "bugs": "https://github.com/kinoute/hivacruz-nova-theme/issues",
   "repository": "https://github.com/kinoute/hivacruz-nova-theme",
-  "version": "1.0",
+  "version": "1.1",
   "keywords": ["dark", "blue", "theme", "cobalt", "hivacruz"],
   "categories": ["themes"]
 }
