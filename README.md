@@ -2,7 +2,7 @@
 
 A dark blue theme for Nova, that matches my [other color schemes](#other-apps).
 
-![](extension.png)
+![](https://github.com/kinoute/hivacruz-nova-theme/raw/main/extension.png)
 
 ## Other Apps
 

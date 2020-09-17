@@ -96,7 +96,7 @@ meta.text.selected {
 
 /* Cursor */
 meta.cursor {
-  background-color: 212431;
+  background-color: #212431;
 }
 
 /* Indentation Guides */
@@ -346,6 +346,23 @@ ruby.identifier.module.submodule {
   color: #afe61d;
 }
 
+ruby.operator {
+  color: #ff8e30;
+}
+
+ruby.string.variable-substitution {
+  color: #f5f5f5;
+}
+
+/* ERB */
+
+erb.tag.framework.expression.start,
+erb.tag.framework.expression.end,
+erb.tag.framework.variable.start,
+erb.tag.framework.variable.end {
+  color: #f5f5f5;
+}
+
 /* CSS */
 
 css.style.selector {
@@ -417,6 +434,27 @@ php.identifier.argument.name {
 
 php.class.extends {
   color: #fc4349;
+}
+
+php.value.null {
+  color: #27c3ca;
+}
+
+php.separator {
+  color: #f5f5f5;
+}
+
+php.identifier.function {
+  color: #27c3ca;
+  font-style: none;
+}
+
+php.block {
+  color: #f5f5f5;
+}
+
+php.comment.block {
+  color: #b87f62;
 }
 
 /* HTML */
