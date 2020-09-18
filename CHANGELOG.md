@@ -1,3 +1,7 @@
+## 1.3
+
+- Added colors for XML files
+
 ## 1.2
 
 - Fixed color of Ruby operators

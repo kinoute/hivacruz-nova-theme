@@ -1,7 +1,7 @@
 meta {
   -theme-interface-style: dark;
   -theme-vibrancy: none;
-  -theme-accent-color: auto;
+  -theme-accent-color: false;
 }
 
 /*
@@ -157,7 +157,7 @@ value.entity {
   color: hsb(210, 60%, 100%);
 }
 value.symbol {
-  color: hsb(210, 60%, 100%);
+  color: #ff8e30;
 }
 
 /* Identifiers */
@@ -166,6 +166,7 @@ identifier.type {
 }
 identifier.constant {
   color: #2abd90;
+  font-style: none;
 }
 identifier.global,
 identifier.variable {
@@ -354,6 +355,10 @@ ruby.string.variable-substitution {
   color: #f5f5f5;
 }
 
+ruby.value.boolean {
+  color: #27c3ca;
+}
+
 /* ERB */
 
 erb.tag.framework.expression.start,
@@ -538,5 +543,15 @@ ini.section.identifier.key.name {
 }
 
 ini.pair.identifier.key {
+  color: #ff8e30;
+}
+
+/* XML */
+
+xml.tag.name {
+  color: #00acf6;
+}
+
+xml.tag.attribute.name.local {
   color: #ff8e30;
 }
