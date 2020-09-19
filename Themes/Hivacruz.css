@@ -359,6 +359,10 @@ ruby.value.boolean {
   color: #27c3ca;
 }
 
+ruby.identifier {
+  color: #f5f5f5;
+}
+
 /* ERB */
 
 erb.tag.framework.expression.start,
