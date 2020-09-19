@@ -1,3 +1,7 @@
+## 1.5
+
+- Added/Fixed several colors for Ruby
+
 ## 1.4
 
 - Fixed Ruby Identifier Color

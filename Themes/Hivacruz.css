@@ -363,6 +363,32 @@ ruby.identifier {
   color: #f5f5f5;
 }
 
+ruby.identifier.class.type.name,
+ruby.identifier.type.superclass {
+  color: #afe61d;
+}
+
+ruby.identifier.method.name {
+  color: #27c3ca;
+}
+
+ruby.identifier.argument.name {
+  color: #fd861f;
+  font-style: italic;
+}
+
+ruby.identifier.core.class,
+ruby.identifier.constant {
+  color: #eabf4d;
+  font-style: italic;
+}
+
+ruby.identifier.function,
+ruby.identifier.method,
+ruby.identifier.property {
+  color: #27c3ca;
+}
+
 /* ERB */
 
 erb.tag.framework.expression.start,
