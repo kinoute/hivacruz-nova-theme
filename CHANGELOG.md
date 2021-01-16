@@ -1,3 +1,7 @@
+## 1.6
+
+- Improved colors for PHP, CSS, JS, Shell, XML, Python & Docker
+
 ## 1.5
 
 - Added/Fixed several colors for Ruby

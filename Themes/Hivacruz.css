@@ -337,6 +337,11 @@ python.operator {
   color: #ff8e30;
 }
 
+python.string.triple-quoted.double-quotes,
+python.string.triple-quoted.delimiter {
+  color: #b87f62;
+}
+
 /* Ruby */
 
 ruby.value.symbol {
@@ -421,6 +426,11 @@ css.style.value.keyword.important {
   color: #ff8e30;
 }
 
+css.style.value.function.var.property.identifier {
+  color: #ff8e30;
+  font-style: italic;
+}
+
 /* PHP */
 php.identifier {
   color: #eabf4d;
@@ -492,6 +502,10 @@ php.comment.block {
   color: #b87f62;
 }
 
+php.definition.namespace {
+  color: white;
+}
+
 /* HTML */
 
 html.tag.attribute.value.double-quoted,
@@ -515,6 +529,11 @@ html.tag.open.single {
 
 javascript.bracket {
   color: #27c3ca;
+}
+
+javascript.identifier.core.global {
+  color: #dcaf54;
+  font-style: italic;
 }
 
 /* Markdown */
@@ -560,6 +579,10 @@ yaml.value.symbol {
   color: #fbce33;
 }
 
+docker.directive.onbuild {
+  color: white;
+}
+
 /* Conf Pair Key */
 
 conf.pair.identifier.key {
@@ -584,4 +607,37 @@ xml.tag.name {
 
 xml.tag.attribute.name.local {
   color: #ff8e30;
+}
+
+xml.tag.attribute.value {
+  color: #fbce33;
+}
+
+/* Bash */
+
+shell.keyword.builtin-command {
+  color: #27c3ca;
+}
+
+shell.identifier {
+  color: white;
+}
+
+shell.operator.argument {
+  color: #ff8e30;
+  font-style: italic;
+}
+
+shell.string.double-quoted shell.identifier {
+  color: #fbce33;
+}
+
+shell.operator {
+  color: #ff8e30;
+}
+
+shell.identifier.function.name,
+shell.bracket,
+shell.value.boolean {
+  color: #27c3ca;
 }
