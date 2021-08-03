@@ -1,3 +1,7 @@
+## 1.7
+
+- Improved syntax for PHP, Ruby, Python & Yaml
+
 ## 1.6
 
 - Improved colors for PHP, CSS, JS, Shell, XML, Python & Docker

@@ -178,9 +178,7 @@ identifier.function,
 identifier.method {
   color: #27c3ca;
 }
-identifier.key {
-  color: hsb(210, 60%, 100%);
-}
+
 identifier.argument {
   font-style: italic;
   color: #fd861f;
@@ -313,13 +311,23 @@ style.value.color.named {
 
 /* Python */
 
+python.string.triple-quoted.prefix {
+  color: #a982ff !important;
+}
+
+python.value.boolean,
+python.value.null {
+  color: #27c3ca;
+}
+
 python.string.block.double-quoted {
   color: #b87f62;
 }
 
 python.definition.method,
 python.keyword,
-python.method {
+python.method,
+python.keyword.construct {
   color: #a982ff !important;
 }
 
@@ -328,7 +336,8 @@ python.self.keyword {
   font-style: normal;
 }
 
-python.identifier.core.type {
+python.identifier.core.type,
+python.arguments {
   color: #eabf4d;
   font-style: italic;
 }
@@ -352,7 +361,8 @@ ruby.identifier.module.submodule {
   color: #afe61d;
 }
 
-ruby.operator {
+ruby.operator,
+ruby.identifier.core.method {
   color: #ff8e30;
 }
 
@@ -437,6 +447,18 @@ php.identifier {
   font-style: italic;
 }
 
+/* SQL Inside PHP */
+php.sql.string-keyword {
+  color: #ff8e30;
+}
+
+php.keyword.modifier {
+  color: #fc4349;
+}
+
+php.value.boolean {
+  color: #27c3ca;
+}
 php.definition.identifier.method.name {
   color: #27c3ca;
   font-style: none;
@@ -445,6 +467,10 @@ php.definition.identifier.method.name {
 php.identifier.type.class.name {
   color: #afe61d;
   font-style: none;
+}
+
+php.keyword.modifier + php.definition.method {
+  color: yellow !important;
 }
 
 php.tag.framework {
@@ -564,6 +590,7 @@ markdown.markup.block.code.language {
   background-color: #192133;
 }
 
+markdown.markup.block.code.langauge.name,
 markdown.markup.block.code.langauge.name {
   color: #8aa1e1;
 }
@@ -571,6 +598,16 @@ markdown.markup.block.code.langauge.name {
 markdown.markup.bold,
 markdown.markup.italic {
   color: #f5f5f5;
+}
+
+/* YML */
+
+yaml.identifier.key {
+  color: #00acf6;
+}
+
+yaml.value.number {
+  color: #fbce33;
 }
 
 /* Dockerfile */
