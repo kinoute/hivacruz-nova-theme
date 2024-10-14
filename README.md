@@ -13,6 +13,7 @@ Here are the same theme for other applications:
 - Typora Theme: https://github.com/kinoute/typora-hivacruz-theme
 - iTerm2: https://github.com/kinoute/hivacruz-itermcolors
 - Sublime Text theme: https://github.com/kinoute/hivacruz-sublime-theme
+- Zed: https://github.com/kinoute/zed-hivacruz-theme
 
 ## Credits
 
